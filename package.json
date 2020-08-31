@@ -1,0 +1,39 @@
+{
+  "name": "journaling-app",
+  "version": "1.0.0",
+  "description": "a journaling app",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "start": " npm run build & webpack-dev-server --open --mode development",
+    "lint": "eslint src/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajmarkow/journaling-app.git"
+  },
+  "keywords": [],
+  "author": "drew parker and aj markow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajmarkow/journaling-app/issues"
+  },
+  "homepage": "https://github.com/ajmarkow/journaling-app#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint": "^7.7.0",
+    "eslint-loader": "^3.0.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/node": "^7.10.5",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "4.39.3",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
